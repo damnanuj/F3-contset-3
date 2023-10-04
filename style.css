@@ -109,7 +109,7 @@ nav{
     color: #878787;
 }
 .search>input{
-    padding-right:450px;
+    padding-right:50px;
     background-color: #272A30;
     border: none;
     color: white;
@@ -143,6 +143,7 @@ nav{
     /* background-color: blueviolet; */
     height: 100%;
     padding: 0 18px;
+    overflow-y: scroll;
 }
 .banner{
     margin: 10px 0;

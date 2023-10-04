@@ -109,7 +109,7 @@ nav{
     color: #878787;
 }
 .search>input{
-    padding-right:450px;
+    padding-right:50px;
     background-color: #272A30;
     border: none;
     color: white;
@@ -214,21 +214,21 @@ nav{
 
 /* Media query for larger screens */
 @media (min-width: 1200px) {
-    /* Change the grid layout to 5 columns for larger screens */
+    /*  4 columns for larger screens */
     .cardsContainer {
       grid-template-columns: repeat(4, 1fr);
     }
   }
   
-  /* Media query for screens smaller than laptops but larger than tablets */
+  /*smaller than laptops but larger than tablets */
   @media (max-width: 1199px) and (min-width: 769px) {
-    /* Change the grid layout to 3 columns for mid-sized screens */
+    /* 3 columns for mid-sized screens */
     .cardsContainer {
       grid-template-columns: repeat(3, 1fr);
     }
   }
   
-  /* Media query for tablet-sized screens */
+  /*tablet-sized screens */
   @media (max-width: 768px) {
     /* Change the grid layout to 2 columns for tablets */
     .cardsContainer {
@@ -236,7 +236,7 @@ nav{
     }
   }
   
-  /* Media query for very small screens */
+  /* very small screens */
   @media (max-width: 480px) {
     /* Change the grid layout to 1 column for very small screens */
     .cardsContainer {
