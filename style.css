@@ -179,7 +179,9 @@ nav{
     display: flex;
     gap: 1rem;  
     align-items: center;
-    overflow-x: scroll;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 20px;
 }
 .scrollCards::-webkit-scrollbar {
     display: none; /* Adjust as needed */
@@ -204,7 +206,7 @@ nav{
     align-items: center;
 }
 .cardsContainer>img{
-    width: 250px;
+    width: 280px;
 }
 .price>h3{
     font-size: 15px;
